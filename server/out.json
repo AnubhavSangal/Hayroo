@@ -1,0 +1,205 @@
+{
+    "reports": [
+        {
+            "aggregate": {
+                "sloc": {
+                    "logical": 37,
+                    "physical": 59
+                },
+                "cyclomatic": 2,
+                "halstead": {
+                    "operators": {
+                        "distinct": 7,
+                        "total": 105,
+                        "identifiers": [
+                            "const",
+                            "=",
+                            "()",
+                            ".",
+                            "{}",
+                            ":",
+                            "||"
+                        ]
+                    },
+                    "operands": {
+                        "distinct": 59,
+                        "total": 123,
+                        "identifiers": [
+                            "express",
+                            "\"express\"",
+                            "require",
+                            "app",
+                            "\"dotenv\"",
+                            "config",
+                            "mongoose",
+                            "\"mongoose\"",
+                            "morgan",
+                            "\"morgan\"",
+                            "cookieParser",
+                            "\"cookie-parser\"",
+                            "cors",
+                            "\"cors\"",
+                            "authRouter",
+                            "\"./routes/auth\"",
+                            "categoryRouter",
+                            "\"./routes/categories\"",
+                            "productRouter",
+                            "\"./routes/products\"",
+                            "brainTreeRouter",
+                            "\"./routes/braintree\"",
+                            "orderRouter",
+                            "\"./routes/orders\"",
+                            "usersRouter",
+                            "\"./routes/users\"",
+                            "customizeRouter",
+                            "\"./routes/customize\"",
+                            "\"./middleware/auth\"",
+                            "CreateAllFolder",
+                            "\"./config/uploadFolderCreateScript\"",
+                            "process",
+                            "env",
+                            "DATABASE",
+                            "<anonymous>",
+                            "useNewUrlParser",
+                            true,
+                            "useUnifiedTopology",
+                            "useCreateIndex",
+                            "connect",
+                            "then",
+                            "catch",
+                            "\"dev\"",
+                            "use",
+                            "\"public\"",
+                            "static",
+                            "extended",
+                            false,
+                            "urlencoded",
+                            "json",
+                            "\"/api\"",
+                            "\"/api/user\"",
+                            "\"/api/category\"",
+                            "\"/api/product\"",
+                            "\"/api/order\"",
+                            "\"/api/customize\"",
+                            "PORT",
+                            8000,
+                            "listen"
+                        ]
+                    },
+                    "length": 228,
+                    "vocabulary": 66,
+                    "difficulty": 7.296610169491526,
+                    "volume": 1378.1218592137275,
+                    "effort": 10055.617972737453,
+                    "bugs": 0.4593739530712425,
+                    "time": 558.6454429298585
+                },
+                "params": 0,
+                "line": 19,
+                "cyclomaticDensity": 5.405405405405405
+            },
+            "functions": [],
+            "dependencies": [
+                {
+                    "line": 19,
+                    "path": "express",
+                    "type": "CommonJS"
+                },
+                {
+                    "line": 21,
+                    "path": "dotenv",
+                    "type": "CommonJS"
+                },
+                {
+                    "line": 22,
+                    "path": "mongoose",
+                    "type": "CommonJS"
+                },
+                {
+                    "line": 23,
+                    "path": "morgan",
+                    "type": "CommonJS"
+                },
+                {
+                    "line": 24,
+                    "path": "cookie-parser",
+                    "type": "CommonJS"
+                },
+                {
+                    "line": 25,
+                    "path": "cors",
+                    "type": "CommonJS"
+                },
+                {
+                    "line": 28,
+                    "path": "./routes/auth",
+                    "type": "CommonJS"
+                },
+                {
+                    "line": 29,
+                    "path": "./routes/categories",
+                    "type": "CommonJS"
+                },
+                {
+                    "line": 30,
+                    "path": "./routes/products",
+                    "type": "CommonJS"
+                },
+                {
+                    "line": 31,
+                    "path": "./routes/braintree",
+                    "type": "CommonJS"
+                },
+                {
+                    "line": 32,
+                    "path": "./routes/orders",
+                    "type": "CommonJS"
+                },
+                {
+                    "line": 33,
+                    "path": "./routes/users",
+                    "type": "CommonJS"
+                },
+                {
+                    "line": 34,
+                    "path": "./routes/customize",
+                    "type": "CommonJS"
+                },
+                {
+                    "line": 36,
+                    "path": "./middleware/auth",
+                    "type": "CommonJS"
+                },
+                {
+                    "line": 37,
+                    "path": "./config/uploadFolderCreateScript",
+                    "type": "CommonJS"
+                }
+            ],
+            "maintainability": 80.82537324591871,
+            "loc": 37,
+            "cyclomatic": 2,
+            "effort": 10055.617972737453,
+            "params": 0,
+            "path": "./app.js"
+        }
+    ],
+    "adjacencyMatrix": [
+        [
+            0
+        ]
+    ],
+    "firstOrderDensity": 0,
+    "visibilityMatrix": [
+        [
+            0
+        ]
+    ],
+    "changeCost": 100,
+    "coreSize": 0,
+    "loc": 37,
+    "cyclomatic": 2,
+    "effort": 10055.617972737453,
+    "params": 0,
+    "maintainability": 80.82537324591871
+}
