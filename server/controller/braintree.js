@@ -12,7 +12,7 @@ class brainTree {
   ganerateToken(req, res) {
     gateway.clientToken.generate({}, (err, response) => {
       if (err) {
-        return res.json(err);
+        // return res.json(err);
       }
       return res.json(response);
     });
@@ -31,7 +31,7 @@ class brainTree {
       (err, result) => {
         if (err) {
           console.error(err);
-          return res.json(err);
+          // return res.json(err);
         }
 
         if (result.success) {
