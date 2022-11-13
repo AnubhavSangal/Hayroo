@@ -1,6 +1,6 @@
 const fs = require("fs");
 
-const categoriesFolder = "./var/task/server/public/uploads/categories";
+const categoriesFolder = "/var/task/server/public/uploads/categories";
 const customizeFolder = "/var/task/server/public/uploads/customize";
 const productsFolder = "/var/task/server/public/uploads/products";
 
